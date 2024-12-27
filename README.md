@@ -90,3 +90,7 @@ The complete CSS file size was: 56.79 kB │ gzip: 10.85 kB and that is somethin
 
 I added some more classes as time went by, but the file size is still under 100kB.
 
+## Post build steps
+
+After the build, the '-moz' and '-webkit' prefixes are removed from the file.
+
