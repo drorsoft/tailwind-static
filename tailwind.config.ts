@@ -32,7 +32,7 @@ export default {
         pattern: /^(col-|row-|overflow-)/,
     }, {
         //more stuff I needed  5.23 kB
-        pattern: /^(visible|invisible|hidden|z-|order-|cursor|rotate|opacity)/,
+        pattern: /^(visible|invisible|hidden|z-|order-|cursor|opacity)/,
     }, {
         //flex stuff
         pattern: /^(justify-|align|items-|self-|gap-)/,
