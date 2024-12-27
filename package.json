@@ -1,7 +1,7 @@
 {
   "name": "tailwind-static",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./output/tailwind-utils.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
