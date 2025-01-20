@@ -38,8 +38,18 @@ export default {
         pattern: /^(justify-|align|items-|self-|gap-)/,
     }, {
         //flex stuff
-        pattern: /^(text-[\w-]{0,3}$|text-base)/,
-    }],
+        pattern: /^(text-[\w-]{0,3}$|text-base|font-|rounded|rounded-)/,
+    },
+        {
+            // all  bg colors with-out opacity
+            pattern: /^(bg-[\w-^\\]{4,20})$/,
+        }
+        ,
+        {
+            // all  bg colors with-out opacity
+            pattern: /^(text-[\w-^\\]{4,20})$/,
+        }
+    ],
     // not included: colors, inset, ring, shadow, stroke, text, transform,
     // translate, scale, rotate, skew,   outline, pointer, resize, select, sr-only,
     // not-sr-only, appearance, background,  divide, ring
